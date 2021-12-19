@@ -5,7 +5,7 @@ pipeline {
     stages {
       stage(‘Build’) {
         steps {
-          sh 'docker-compose up --build'
+          sh 'sudo docker-compose up --build'
           /*sh '''
             echo "DIt wordt uitgevoerd in mijn jenkins container"
             echo "Install"
